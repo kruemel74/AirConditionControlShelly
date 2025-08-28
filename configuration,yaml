@@ -1,0 +1,19 @@
+outdoorHost: 192.168.178.7   # fixed IP of the outdoor Shelly
+pollSec: 60                  # polling interval
+hysteresis: 4.0
+deltaT: 0.7
+rhMin: 80.0
+rhMaxSoft: 92.0
+frostLimit: -3.0
+onMaxMin: 15
+offMinMin: 5
+fallbackStart: "03:00"
+fallbackEnd: "08:00"
+relayId: 0
+usePowerGuard: true
+minFanW: 2.0
+powerCheckDelay: 90
+debug: true
+logOutdoorFetch: true
+forceDecisionLogEverySec: 30
+heartbeat: true
