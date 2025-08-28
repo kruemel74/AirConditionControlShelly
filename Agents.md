@@ -2,6 +2,9 @@
 
 > **Goal**: Template to define the participating agents/services for the Naturkeller ventilation project based on Shelly Plus 1PM Gen3 and AM2301A (DHT21) sensors. This document serves as a starting point for a Codex/repo setup (monorepo or multi-repo) and describes roles, interfaces, configuration, runtime behavior, and operational processes.
 
+**Architecture**
+Use different timer loops for a heartbeat management with a configurable log, duty cycle handling for long switch on periods, which can be configured.
+
 ---
 
 ## 1. Overview
